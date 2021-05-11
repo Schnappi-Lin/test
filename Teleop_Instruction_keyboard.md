@@ -10,8 +10,19 @@ Generally, there are 4 control modes which are:
 * CartesianPosition control 
 * CartesianVelocity control
 
-| Key        |     command       |  remark  |
-| ------------- |:-------------:| -----:|
-| col 3 is      | right-aligned | $1600 |
-| col 2 is      | centered      |   $12 |
-| zebra stripes | are neat      |    $1 |
+After running the package, the default state is: **JointPosition mode, controlling jointA1, speedoverride=1.0**.
+### JointPosition Mode
+
+| Command        |     Description      |Remark   |
+| ------------- |:-------------:| :-----:|
+| w/W      |  move in increasing direction | default step size is 10 degree |
+| s/S      | move in decreasing direction  |   default step size is 10 degree |
+| 1  | select  jointA1 | 
+| 2  | select jointA2 | 
+| 3  | select jointA3 | 
+| 4  | select jointA4 | 
+| 5  | select jointA5 | 
+| 6  | select jointA6 | 
+| 7  | select jointA7 | 
+| V | switch to **jointVelocity mode**||
+
