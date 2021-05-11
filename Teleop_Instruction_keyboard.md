@@ -43,8 +43,14 @@ After running the package, the **default state** is: **JointPosition mode with c
 | d / D      | move right(y-axis negative)  |   default step size is 1.7cm |
 | q / Q      | move up(z-axis positive)  |   default step size is 1.7cm |
 | e / E      | move down(z-axis negative)  |   default step size is 1.7cm |
-|   | select  axis-x | 
-| 2  | select axis-y | 
+
+| r / R      | Roll positive  |   default step size is 1.7cm |
+| f / F      | Roll negative  |   default step size is 1.7cm |
+| t / T      | Pitch positive  |   default step size is 1.7cm |
+| g / G      | Pitch negative  |   default step size is 1.7cm |
+| y / Y      | Yaw positive  |   default step size is 1.7cm |
+| h / H      | Yaw negative  |   default step size is 1.7cm |
+
 
 | ' + ' | stepsize + 1 degree | you can modify stepsize and stepstepsize as you want in Config.h file
 | ' - ' | stepsize - 1 degree | you can modify stepsize and stepstepsize as you want in Config.h file
