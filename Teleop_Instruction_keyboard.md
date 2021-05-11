@@ -17,19 +17,19 @@ After running the package, the **default state** is: **JointPosition mode with c
 | ------------- |:-------------:| :-----:|
 | w / W      |  move in increasing direction | default step size is 10 degree |
 | s / S      | move in decreasing direction  |   default step size is 10 degree |
-| 1  | select  jointA1 | 
-| 2  | select jointA2 | 
-| 3  | select jointA3 | 
-| 4  | select jointA4 | 
-| 5  | select jointA5 | 
-| 6  | select jointA6 | 
-| 7  | select jointA7 | 
+| 1  | select jointA1 | /
+| 2  | select jointA2 | /
+| 3  | select jointA3 | /
+| 4  | select jointA4 | /
+| 5  | select jointA5 | /
+| 6  | select jointA6 | /
+| 7  | select jointA7 | /
 | ' + ' | stepsize + 1 degree | you can modify stepsize and stepstepsize as you want in Config.h file
 | ' - ' | stepsize - 1 degree | you can modify stepsize and stepstepsize as you want in Config.h file
-| o / O | open gripper | 
-| l / L  | close gripper | 
-| J | Reset to the **default state**|
-| C | switch to the [CatesianPosition Mode](#CP) |
+| o / O | open gripper | /
+| l / L | close gripper| /
+| J | Reset to the **default state**|/
+| C | switch to the [CatesianPosition Mode](#CP) |/
 | V | switch to [JointVelocity Mode](#JV)|
 
 
@@ -37,27 +37,24 @@ After running the package, the **default state** is: **JointPosition mode with c
 
 | Command        |     Description      |Remark   |
 | ------------- |:-------------:| :-----:|
-| w / W      |  move forward(x-axis positive) | default step size is 1.7cm |
-| s / S      | move backward(x-axis negative)  |   default step size is 1.7cm |
-| a / A      | move left(y-axis positive)  |   default step size is 1.7cm |
-| d / D      | move right(y-axis negative)  |   default step size is 1.7cm |
-| q / Q      | move up(z-axis positive)  |   default step size is 1.7cm |
-| e / E      | move down(z-axis negative)  |   default step size is 1.7cm |
-
-| r / R      | Roll positive  |   default step size is 1.7cm |
-| f / F      | Roll negative  |   default step size is 1.7cm |
-| t / T      | Pitch positive  |   default step size is 1.7cm |
-| g / G      | Pitch negative  |   default step size is 1.7cm |
-| y / Y      | Yaw positive  |   default step size is 1.7cm |
-| h / H      | Yaw negative  |   default step size is 1.7cm |
-
-
-| ' + ' | stepsize + 1 degree | you can modify stepsize and stepstepsize as you want in Config.h file
-| ' - ' | stepsize - 1 degree | you can modify stepsize and stepstepsize as you want in Config.h file
-| o/O | open gripper | 
-| l/L  | close gripper | 
-| J | Reset to the **default state**|
-| V | switch to **jointVelocity mode**|
+| w / W      |  move forward(x-axis positive) | default step size is 0.068m |
+| s / S      | move backward(x-axis negative)  |   default step size is 0.068m |
+| a / A      | move left(y-axis positive)  |   default step size is 0.068m |
+| d / D      | move right(y-axis negative)  |   default step size is 0.068m |
+| q / Q      | move up(z-axis positive)  |   default step size is 0.068m |
+| e / E      | move down(z-axis negative)  |   default step size is 0.068m |
+| r / R      | Roll positive  |   default step size is 3.89 degree |
+| f / F      | Roll negative  |   default step size is 3.89 degree |
+| t / T      | Pitch positive  |   default step size is 3.89 degree |
+| g / G      | Pitch negative  |   default step size is 3.89 degree |
+| y / Y      | Yaw positive  |   default step size is 3.89 degree |
+| h / H      | Yaw negative  |   default step size is 3.89 degree |
+| ' + ' | stepsize + 1cm in linear or -1 degree in orient | you can modify default stepsize and stepstepsize in Config.h file
+| ' - ' | stepsize - 1cm in linear or -1 degree in orient | you can modify stepsize and stepstepsize in Config.h file
+| o/O | open gripper | /
+| l/L  | close gripper | /
+| J | switch to the [JointPosition Mode](#JP)|/
+| V | switch to [CartesianVelocity Mode](#CV)|/
 
 
 ### JointVelocity Mode <a name="JV"></a>
